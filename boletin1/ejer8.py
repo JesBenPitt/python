@@ -1,0 +1,6 @@
+base = float(input("Introduce la base que desea calcular: "))
+iva = float(input("Introduce el IVA a aplicar (solo el número sin porcentaje): "))
+iva = (base*(iva/100))
+total = (base+iva)
+print(f'El importe de IVa que se va a aplicar es: {iva}€.')
+print(f'El importe total calculado es de: {total}€')
